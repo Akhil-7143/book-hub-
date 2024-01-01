@@ -1,0 +1,27 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  height: 300px;
+  width: 300px;
+}
+
+.nfh {
+  color: #000;
+  font-size: 22px;
+}
+.nfd {
+  color: #000;
+  font-size: 23px;
+}
+.nfb {
+  height: 26px;
+  width: 120px;
+  border: none;
+  background-color: aqua;
+}

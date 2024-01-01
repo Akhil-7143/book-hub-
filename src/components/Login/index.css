@@ -1,0 +1,90 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 227, 214);
+}
+.login-card {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.login-image {
+  width: 50%;
+  height: 100%;
+}
+@media screen and (max-width: 576px) {
+  .login-image {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(239, 244, 247, 0.897);
+  width: 70%;
+  height: 90%;
+}
+.login-website-login {
+  height: 50px;
+  width: 60px;
+}
+.input-container {
+  width: 80%;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: rgb(180, 173, 173);
+  font-size: 18px;
+  font-family: roboto;
+}
+.input {
+  color: black;
+  height: 40px;
+  width: 70%;
+  border: 1px solid #000;
+  border-radius: 9px;
+  background-color: transparent;
+  margin-top: 12px;
+}
+.error {
+  color: rgb(241, 72, 72);
+  font-size: 12px;
+}
+.submit-button {
+  height: 40px;
+  align-self: flex-start;
+  width: 60%;
+  border-radius: 9px;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+  background-color: rgb(12, 125, 163);
+}

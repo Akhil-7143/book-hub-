@@ -1,0 +1,17 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.failure-image {
+  height: 300px;
+  width: 250px;
+}
+
+.button {
+  height: 24px;
+  width: 90px;
+  background-color: aqua;
+  color: #fff;
+}

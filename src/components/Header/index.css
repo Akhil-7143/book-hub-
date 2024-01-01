@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  padding: 13px;
+  background-color: #fff;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.login-website-logo {
+  height: 60px;
+  width: 130px;
+}
+.link {
+  text-decoration: none;
+}
+.nav-items-container {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+}
+.link-item {
+  color: rgb(107, 102, 102);
+  margin: 12px;
+}
+.button {
+  background-color: aqua;
+  height: 27px;
+  width: 80px;
+  border: none;
+}

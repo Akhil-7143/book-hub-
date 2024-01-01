@@ -1,0 +1,90 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 218, 218);
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+
+.heading {
+  color: #000;
+  font-size: 24px;
+}
+.home-card {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+  height: 40vh;
+
+  background-color: #fff;
+}
+.top-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 12px 0px 12px;
+}
+.find-books-button {
+  height: 28px;
+  width: 100px;
+  border: none;
+  border-radius: 7px;
+  background-color: aqua;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-container {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+}
+
+.top-rated-book-container {
+  height: 200px;
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+}
+.top-rated-book-btn {
+  border: none;
+  height: 180px;
+  width: 300px;
+  background-color: transparent;
+}
+.top-rated-book-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 350px;
+}
+.top-rated-book-image {
+  height: 50px;
+  width: 80px;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
